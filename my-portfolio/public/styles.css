@@ -1,0 +1,39 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+   
+}
+
+.navbar
+{   height: 100%;
+    width: 5rem;
+    display: grid;
+    grid-template-rows: 1fr 1fr 2.5fr 1fr 1fr;
+    background-color: gray;
+    padding-left: 10px;
+}
+.logo
+{
+    grid-row: 1/2;
+}
+.togglepage
+{
+    grid-row: 2/3;
+
+}
+.togglepage ul{
+    display:grid;
+    width:5rem;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.togglepage ul li{
+    padding-top: 10%;
+}
+.direct-contact
+{
+    grid-row: 4/5;
+}
